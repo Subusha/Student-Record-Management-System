@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Search</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">SRMS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="display.html">Display Data</a>
+                  <a class="nav-link" href="update.html">Update Data</a>
+                  <a class="nav-link active"  aria-current="page" href="#">Search</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+<main>
+   
+      <div class="container mt-5">
+        <h1 class="text-center" style="text-align: center; font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', 'Arial Black', 'sans-serif'; color:black">Search Student Records</h1>
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <form id="search-form">
+              <div class="input-group mb-3">
+                <select class="form-select" id="search-option">
+                  <option value="SID">SID</option>
+                  <option value="FirstName">First Name</option>
+                  <option value="LastName">Last Name</option>
+                  <option value="Email">Email</option>
+                  <option value="NearCity">Near City</option>
+                  <option value="Course">Course</option>
+                  <option value="Guardian">Guardian</option>
+                </select>
+                <input type="text" class="form-control" placeholder="Search" id="search-input">
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row g-2 mt-5">
+       
+            <div id="search-results"></div>
+   
+        </div>
+      </div>
+   
+
+
+
+
+
+
+<br>
+
+
+
+<br>
+
+
+
+
+<br>
+</main>
+<footer class="footer bg-dark text-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <h5>About Us</h5>
+        <p>Education Is The Best Investment.</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled">
+          <li><i class="bi bi-geo-alt-fill me-2"></i></li>
+          <li><i class="bi bi-telephone-fill me-2"></i>070 4673604</li>
+          <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:info@example.com">yapapunsara408@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center">
+      <p>&copy; 2023 Group_13B Product. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook<i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/">Twitter<i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/">Instagram<i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+  </div>
+</footer>
+        
+        <script src="jquery/jquery.slim.min.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="jquery/jquery.min.js"></script>
+        <script src="search.js"></script>
+</body>
+</html>
